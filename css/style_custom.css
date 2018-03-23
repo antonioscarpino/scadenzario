@@ -1,0 +1,113 @@
+body {
+    padding-top: 100px;
+}
+
+.navbar-custom {
+    background-color: #0080c0;
+    border-color: #0080c0;
+}
+
+a:hover,
+a:focus {
+    color: #c4e1ff;
+}
+
+a {
+    color: #ffffff;
+}
+
+.nav>li>a:hover,
+.nav>li>a:focus {
+    background-color: #454545;
+}
+
+a:hover,
+.nav .open>a:focus {
+    background-color: #454545;
+    border-color: #454545;
+}
+
+.fc-state-default {
+    border-color: #0080c0;
+    color: #0080c0;
+}
+
+.fc-state-down,
+.fc-state-active {
+    background-color: #0080c0;
+    color: black;
+}
+
+.fc-state-hover {
+    background-color: azure;
+}
+
+.fc-state-disabled {
+    background-color: azure;
+}
+
+select {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    font-family: inherit;
+    display: inline-block;
+    height: 30px;
+    width: 150px;
+    background-color: #ffffff;
+    padding: 5px;
+    border: solid 1px;
+    border-color: #ccc;
+    border-radius: 5px;
+    color: #555;
+    margin: 0;
+    overflow: hidden;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/* css di animate */
+
+.animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+.animated.infinite {
+    animation-iteration-count: infinite;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.fadeIn {
+    animation-name: fadeIn;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translate3d(0, 100%, 0);
+    }
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+.fadeInUp {
+    animation-name: fadeInUp;
+}
+
+/* active {
+    background-color: #0080c0;
+} */
