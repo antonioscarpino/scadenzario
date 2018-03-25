@@ -1,10 +1,9 @@
 <?php
-
-require_once("src/classi/class_Db.php");
-if ($_GET) {
-    $id = $_GET['id'];
-    $descrizione = $_GET['descrizione'];
-}
+  require_once("src/classi/class_Db.php");
+  if ($_GET) {
+      $id = $_GET['id'];
+      $descrizione = $_GET['descrizione'];
+  }
 
 ?>
   <!DOCTYPE html>

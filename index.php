@@ -1,7 +1,5 @@
 <?php
-
     require_once("src/classi/class_Db.php");
-
 ?>
 
 <!DOCTYPE html>
@@ -29,7 +27,7 @@
     <script>
 
 	$(document).ready(function() {
-	    var date = new Date();
+	  var date = new Date();
 		var d = date.getDate();
 		var m = date.getMonth();
 		var y = date.getFullYear();
