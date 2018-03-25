@@ -58,10 +58,10 @@ class metodi_Db extends conn_Db
                 $className = $row['className'];
                 echo <<< END
  			{
-                id: $id,
- 				title: '$title',
- 				start: new Date($start),
- 				className: '$className'
+        id: $id,
+	      title: '$title',
+	      start: new Date($start),
+	      className: '$className'
  			},\r
 END;
             }
@@ -69,7 +69,6 @@ END;
     }
     public static function mod_scadenza($id, $title, $className)
     {
-        //print_r($_POST);
         $id = $_POST['submit'];
         $title = $_POST['descrizione'];
         $className = $_POST['className'];
